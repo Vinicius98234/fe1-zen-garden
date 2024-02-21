@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
 html, body {
     margin: 0;
 	padding: 0;
-    box-sizing: border-box;
 	}
 html {
     background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/5894082-formas-geometricas-corporativas-fundo-colorido-para-banners-posters-cartoes-website-brochura-gratis-vetor.jpg);
@@ -12,8 +14,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    font-family: "Playfair Display", serif;
+    font-family: "Philosopher", sans-serif;
     font-size: 25px;
 }
 body{
@@ -29,7 +30,6 @@ body{
 }
 h1 {
     font-size: large;
-    background: red;
     display: inline-block;
     margin-bottom: 10px;
     padding: 5px;
@@ -41,13 +41,17 @@ h2 {
     font-size: 40px;
     color: rgb(0, 0, 0);
     margin-top: 0;
+    
    
 }
 h3 {
     font-size: 30px;
     color: rgb(0, 0, 0);
     margin-top: 0;
-    text-align: center;
+    text-align: justify;
+}
+p {
+    text-align: justify;
 }
 .summary{
     font-size: 20px;
@@ -55,8 +59,9 @@ h3 {
 ol, ul {
     text-align: left;
 }
-a {
-    color: red;
+a:hover {
+    
+    color:red ;
 }
 
     
