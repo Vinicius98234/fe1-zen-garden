@@ -1,25 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 html, body {
     margin: 0;
 	padding: 0;
+    
 	}
 html {
-    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/5894082-formas-geometricas-corporativas-fundo-colorido-para-banners-posters-cartoes-website-brochura-gratis-vetor.jpg);
-    background-repeat: repeat;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: overlay;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Philosopher", sans-serif;
-    font-size: 25px;
+    font-family: "Merriweather", sans-serif;
+    font-size: 20px;
 }
 body{
-    background: linear-gradient(#CEDBC7, #0682C1, #F8B20A);
-    width: 1600px;
+    background-color:  rgba(112,132,134,1);
+    width: 1400px;
     max-width: 2000px;
     text-align: center;
     border-radius: 20px;
@@ -29,39 +29,50 @@ body{
     margin-bottom: 50px;
 }
 h1 {
+    letter-spacing: 1px;
     font-size: large;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 5px;
-    color: rgb(0, 0, 0);
+    color: #D6BD3F;
     margin-top: 0;
     
 }
 h2 {
+    letter-spacing: 1px;
     font-size: 40px;
-    color: rgb(0, 0, 0);
+    color: #D6BD3F;
     margin-top: 0;
-    
-   
 }
 h3 {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #D6BD3F;
     margin-top: 0;
     text-align: justify;
 }
 p {
+    margin-top: 0;
+    color: #000000;
     text-align: justify;
 }
 .summary{
-    font-size: 20px;
+    font-size: 15px;
 }
 ol, ul {
     text-align: left;
 }
-a:hover {
-    
-    color:red ;
+a {
+    color: #D6BD3F;
 }
+a:hover, a:focus, a:active { 
+	text-decoration: underline;
+    
+    color:#4B6387 ;
+}
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
 
     
